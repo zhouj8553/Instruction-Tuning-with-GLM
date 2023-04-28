@@ -49,4 +49,4 @@ CUDA_VISIBLE_DEVICES=3 python test_glm.py --model /data/zhoujing/ckpts/glm-10b-c
 
 CUDA_VISIBLE_DEVICES=2 python test_glm.py --model /data/zhoujing/ckpts/glm-large-chinese/alpaca_gpt4_data_zh
 
-'''
+"""
