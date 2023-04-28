@@ -15,7 +15,7 @@ I have optimized the GPU memory using deepspeed. You can choose the appropriate 
  
 
 # Environment
-```pip install -r requirement```
+```pip install -r requirements```
 
 # Train
 ```
