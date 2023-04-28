@@ -42,7 +42,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port=10002 tra
 
 # Evaluate
 ```
-CUDA_VISIBLE_DEVICES=2 python test_glm.py --model /data/zhoujing/ckpts/stanford_alpaca/glm-large-chinese/alpaca_gpt4_data_zh
+CUDA_VISIBLE_DEVICES=2 python test_glm.py --model /data/zhoujing/ckpts/glm-large-chinese/alpaca_gpt4_data_zh
 
-CUDA_VISIBLE_DEVICES=3 python test_glm.py --model /data/zhoujing/ckpts/stanford_alpaca/glm-10b-chinese/alpaca_gpt4_data_zh/checkpoint-1000
+CUDA_VISIBLE_DEVICES=3 python test_glm.py --model /data/zhoujing/ckpts/glm-10b-chinese/alpaca_gpt4_data_zh/checkpoint-1000
 ```
